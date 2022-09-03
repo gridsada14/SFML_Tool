@@ -1,13 +1,11 @@
 
 ```
 $(SolutionDir)\External\include
-
 ```
 
 
 ```
 $(SolutionDir)\External\lib
-
 ```
 
 
@@ -17,7 +15,6 @@ sfml-window.lib
 sfml-audio.lib
 sfml-network.lib
 sfml-system.lib
-
 ```
 
 
@@ -27,5 +24,4 @@ sfml-window-d.lib
 sfml-audio-d.lib
 sfml-network-d.lib
 sfml-system-d.lib
-
 ```
