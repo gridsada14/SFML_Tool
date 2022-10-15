@@ -4,20 +4,15 @@
 2. Add all .dll file same path as main.c 
 3. Property page (Alt + Enter)
   1. C/C++ -> Genaral -> Additional Include Directories
-
 ```
 $(SolutionDir)\External\include
 ```
-
   2. Linker -> General -> Additional Library Directories 
-
 ```
 $(SolutionDir)\External\lib
 ```
-
   3. Linker -> Input -> Additional Depencies
-	  *[configration: Release]*
-
+  *[configration: Release]*
 ```
 sfml-graphics.lib
 sfml-window.lib
@@ -25,7 +20,7 @@ sfml-audio.lib
 sfml-network.lib
 sfml-system.lib
 ```
-    *[configration: Debug]*
+  *[configration: Debug]*
 
 ```
 sfml-graphics-d.lib
